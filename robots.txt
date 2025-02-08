@@ -1,0 +1,15 @@
+# robots.txt for https://rahulpatelresume.netlify.app/
+
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+
+# Allow specific pages to be crawled
+Allow: /about/
+Allow: /contact/
+Allow: /portfolio/
+
+# Sitemap location
+Sitemap: https://rahulpatelresume.netlify.app/sitemap.xml
